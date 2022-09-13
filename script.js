@@ -1,5 +1,6 @@
 let div = document.createElement("div");
 div.style.textAlign="center";
+
 let input = document.createElement("input");
 input.setAttribute("type","text");
 input.setAttribute("id","country");
@@ -8,12 +9,13 @@ button.setAttribute("type","button");
 button.classList.add("btn","btn-primary");
 button.innerHTML = "search";
 button.addEventListener("click",foo)
+
 let active = document.createElement("div");
 active.setAttribute("id","active")
 let confirmed = document.createElement("div");
-active.setAttribute("id","confirmed")
+confirmed.setAttribute("id","confirmed")
 let deaths = document.createElement("div");
-active.setAttribute("id","deaths")
+deaths.setAttribute("id","deaths")
 div.append(input,button,active,confirmed,deaths);
 document.body.append(div);
 
