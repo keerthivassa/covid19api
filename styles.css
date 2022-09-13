@@ -1,0 +1,17 @@
+body {
+    background-color: lightblue;
+}
+
+#confirmed{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+}
+#active{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+}
+#deaths{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+}
+
